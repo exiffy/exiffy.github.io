@@ -246,11 +246,12 @@ section.success {
 }
 
 .carousel {
-	margin-top: 20px
+	margin-top: 20px;
 }
 
 .carousel .portfolio-item {
 	min-height: 280px;
+	margin: 0 auto;
 }
 
 .carousel .portfolio-item img {
