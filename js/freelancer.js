@@ -31,7 +31,13 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 });
 
+
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+//$('.navbar-collapse ul li a').click(function() {
+//    $('.navbar-toggle:visible').click();
+//});
+$(document).on('click', '.navbar-collapse.in', function(e) {
+  if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toogle') {
+    $(this).collapse('hide');
+  }
 });
