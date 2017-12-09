@@ -164,6 +164,9 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
+#bs-example-navbar-collapse-1 a:focus {
+  background-color: green;
+}
 
 .navbar-default,
 .navbar-inverse {
@@ -196,7 +199,7 @@ section.success {
 
 .portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0;
 }
 
 .portfolio .portfolio-item .portfolio-link {
@@ -260,7 +263,7 @@ section.success {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 15px 0;
     }
 }
 
