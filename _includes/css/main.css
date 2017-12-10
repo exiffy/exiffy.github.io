@@ -167,7 +167,7 @@ header .intro-text .skills {
 
 /* NAVBAR ACTIVE/FOCUS GOES HERE!!! */
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.primary }} !important;
+    background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 .navbar-default,
@@ -186,7 +186,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 
 @media(max-width:767px) {
